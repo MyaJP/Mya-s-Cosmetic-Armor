@@ -13,7 +13,6 @@ This mod is a **fork of [Cosmetic Armor Reworked](https://github.com/zlainsama/C
   - Off (dark): cosmetic armor is shown. The switch on each slot hides that armor piece.
   - On (white): real armor is shown. The switch on each slot shows the cosmetic armor for that piece only.
   - Toggling the all on/off switch resets the per-slot switches.
-- 2x2 crafting grid, like the normal inventory
 - Synced to every player on the server
 - Works in the creative inventory too (inventory tab)
 - Cosmetic armor is kept on death
@@ -48,7 +47,6 @@ zlainsama（LainMI）さんの [Cosmetic Armor Reworked](https://github.com/zlai
   - 暗いとき：見た目の防具を表示します。各欄のスイッチはその部位を隠します
   - 白いとき：本物の防具を表示します。各欄のスイッチを押した部位だけ見た目の防具になります
   - 全切替を押すと、各欄のスイッチは全部オフに戻ります
-- 普通のインベントリと同じ 2x2 のクラフト欄
 - サーバーにいる全員に同じように見えます
 - クリエイティブのインベントリ（インベントリのタブ）でも使えます
 - 見た目の防具は死んでも落ちません
