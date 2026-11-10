@@ -8,6 +8,7 @@
   "contributors": ["zlainsama (LainMI) - original Cosmetic Armor Reworked"],
   "contact": { "homepage": "https://www.curseforge.com/members/mya_jp" },
   "license": "LicenseRef-MMPL-1.0.1",
+  "icon": "myas_cosmetic_armor.png",
   "environment": "*",
   "entrypoints": {
     "main": ["jp.mya.myascosmeticarmor.MyasCosmeticArmor"],

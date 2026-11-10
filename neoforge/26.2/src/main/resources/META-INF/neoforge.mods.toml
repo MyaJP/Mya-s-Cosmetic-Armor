@@ -6,6 +6,7 @@ license = "MMPL 1.0.1"
 modId = "myas_cosmetic_armor"
 version = "${version}"
 displayName = "Mya's Cosmetic Armor"
+logoFile = "myas_cosmetic_armor.png"
 authors = "Mya"
 credits = "zlainsama (LainMI) - original Cosmetic Armor Reworked"
 description = '''

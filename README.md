@@ -1,3 +1,5 @@
+<img src="icon.png" width="128" alt="Mya's Cosmetic Armor">
+
 # Mya's Cosmetic Armor
 
 Wear armor just for looks. Your real armor still protects you, while other players see the cosmetic armor you chose.
@@ -13,6 +15,7 @@ This mod is a **fork of [Cosmetic Armor Reworked](https://github.com/zlainsama/C
   - Toggling the all on/off switch resets the per-slot switches.
 - 2x2 crafting grid, like the normal inventory
 - Synced to every player on the server
+- Works in the creative inventory too (inventory tab)
 - Cosmetic armor is kept on death
 
 Install on both the server and the client. The Fabric version requires Fabric API.
@@ -47,6 +50,7 @@ zlainsama（LainMI）さんの [Cosmetic Armor Reworked](https://github.com/zlai
   - 全切替を押すと、各欄のスイッチは全部オフに戻ります
 - 普通のインベントリと同じ 2x2 のクラフト欄
 - サーバーにいる全員に同じように見えます
+- クリエイティブのインベントリ（インベントリのタブ）でも使えます
 - 見た目の防具は死んでも落ちません
 
 サーバーとクライアントの両方に入れてください。Fabric版は Fabric API が必要です。
