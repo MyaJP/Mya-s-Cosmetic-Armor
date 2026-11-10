@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MMPL 1.0.1"
+
+[[mods]]
+modId = "myas_cosmetic_armor"
+version = "${version}"
+displayName = "Mya's Cosmetic Armor"
+authors = "Mya"
+credits = "zlainsama (LainMI) - original Cosmetic Armor Reworked"
+description = '''
+Wear armor just for looks. A fork of Cosmetic Armor Reworked by zlainsama for Fabric and NeoForge.
+'''
+
+[[mixins]]
+config = "myas_cosmetic_armor.mixins.json"
+
+[[dependencies.myas_cosmetic_armor]]
+modId = "neoforge"
+type = "required"
+versionRange = "[${neo_min},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.myas_cosmetic_armor]]
+modId = "minecraft"
+type = "required"
+versionRange = "[${mc}]"
+ordering = "NONE"
+side = "BOTH"

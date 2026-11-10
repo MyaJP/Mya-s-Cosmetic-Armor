@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "jp.mya.myascosmeticarmor.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["CraftingMenuInvoker", "MenuTypeInvoker"],
+  "client": ["MenuScreensInvoker", "PlayerRendererMixin", "ScreenPosAccessor"],
+  "injectors": { "defaultRequire": 1 }
+}

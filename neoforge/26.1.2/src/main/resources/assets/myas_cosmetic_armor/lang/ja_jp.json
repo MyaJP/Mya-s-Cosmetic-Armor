@@ -1,0 +1,7 @@
+{
+  "container.myas_cosmetic_armor": "見た目の防具",
+  "myas_cosmetic_armor.button.open": "見た目の防具",
+  "myas_cosmetic_armor.button.back": "インベントリ",
+  "myas_cosmetic_armor.button.toggle_all": "見た目の防具の全切替",
+  "myas_cosmetic_armor.button.slot": "部位ごとのスイッチ"
+}

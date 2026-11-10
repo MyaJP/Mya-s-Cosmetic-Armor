@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "myas_cosmetic_armor",
+  "version": "${version}",
+  "name": "Mya's Cosmetic Armor",
+  "description": "Wear armor just for looks. A fork of Cosmetic Armor Reworked by zlainsama for Fabric and NeoForge.",
+  "authors": ["Mya"],
+  "contributors": ["zlainsama (LainMI) - original Cosmetic Armor Reworked"],
+  "contact": { "homepage": "https://www.curseforge.com/members/mya_jp" },
+  "license": "LicenseRef-MMPL-1.0.1",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["jp.mya.myascosmeticarmor.MyasCosmeticArmor"],
+    "client": ["jp.mya.myascosmeticarmor.client.MyasCosmeticArmorClient"]
+  },
+  "mixins": ["myas_cosmetic_armor.mixins.json"],
+  "depends": {
+    "fabricloader": ">=${loader_min}",
+    "minecraft": "${mc}",
+    "java": ">=${java}",
+    "fabric-api": "*"
+  }
+}

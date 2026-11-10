@@ -1,0 +1,25 @@
+plugins {
+    id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
+}
+
+version = '1.0.0'
+group = 'jp.mya'
+base { archivesName = 'myas_cosmetic_armor-fabric-1.21.3' }
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+tasks.withType(JavaCompile).configureEach { it.options.release = 21; it.options.encoding = 'UTF-8' }
+
+processResources {
+    def p = [version: project.version, mc: '1.21.3', java: '21', loader_min: '0.16.0']
+    inputs.properties p
+    filesMatching('fabric.mod.json') { expand p }
+}
+
+jar { from('LICENSE.txt') }
