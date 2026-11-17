@@ -3,7 +3,7 @@ plugins {
     id 'net.neoforged.moddev' version '2.0.148'
 }
 
-version = '1.0.0'
+version = rootProject.file('../../VERSION').text.trim()
 group = 'jp.mya'
 base { archivesName = 'myas_cosmetic_armor-neoforge-1.21.8' }
 

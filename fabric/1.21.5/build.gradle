@@ -2,7 +2,7 @@ plugins {
     id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
 }
 
-version = '1.0.0'
+version = rootProject.file('../../VERSION').text.trim()
 group = 'jp.mya'
 base { archivesName = 'myas_cosmetic_armor-fabric-1.21.5' }
 
